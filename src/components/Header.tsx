@@ -6,7 +6,11 @@ export default function Header() {
     <header>
       <div>
         <Link href="/">
-          <Image src="/images/sample-store-logo.png" alt="SAMPLE Store" width={910} height={200} priority />
+          <Image
+            src="/images/sample-store-logo.png"
+            alt="SAMPLE Store"
+            width={910} height={200}
+          />
         </Link>
       </div>
 
@@ -21,13 +25,25 @@ export default function Header() {
       <div>
         <input type="text" placeholder="検索..." />
         <Link href="/account/favorites">
-          <Image src="/icons/heart-icon.svg" alt="Favorites" width={24} height={24} />
+          <Image
+            src="/icons/heart-icon.svg"
+            alt="Favorites"
+            width={24} height={24}
+          />
         </Link>
         <Link href="/cart">
-          <Image src="/icons/cart-icon.svg" alt="Cart" width={24} height={24} />
+          <Image
+            src="/icons/cart-icon.svg"
+            alt="Cart"
+            width={24} height={24}
+          />
         </Link>
         <Link href="/account">
-          <Image src="/icons/account-icon.svg" alt="Account" width={24} height={24} />
+          <Image
+            src="/icons/account-icon.svg"
+            alt="Account"
+            width={24} height={24}
+          />
         </Link>
       </div>
     </header>

@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-// 共通フッター
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -24,9 +23,24 @@ export default function Footer() {
         <h3>お問い合わせ</h3>
         <p><Link href="/contact">ご質問・ご相談はこちら</Link></p>
         <div>
-          <Image src="/icons/facebook-icon.png" alt="Facebook" width={24} height={24} />
-          <Image src="/icons/x-icon.svg" alt="X" width={24} height={24} />
-          <Image src="/icons/youtube-icon.svg" alt="Instagram" width={24} height={24} />
+          <Image
+            src="/icons/facebook-icon.png"
+            alt="Facebook"
+            width={24} height={24}
+            style={{ width: '24px', height: '24px' }}
+          />
+          <Image
+            src="/icons/x-icon.svg"
+            alt="X"
+            width={24} height={24}
+            style={{ width: '24px', height: '24px' }}
+          />
+          <Image
+            src="/icons/youtube-icon.svg"
+            alt="YouTube"
+            width={24} height={24}
+            style={{ width: '24px', height: '24px' }}
+          />
         </div>
       </div>
 
